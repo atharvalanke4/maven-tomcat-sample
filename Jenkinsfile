@@ -6,7 +6,11 @@
     }
 
     stages {
-       
+       stage('Git Checkout') {
+            steps {
+            https://github.com/atharvalanke4/maven-tomcat-sample.git
+            }
+        }
         
         stage('Compile') {
             steps {
